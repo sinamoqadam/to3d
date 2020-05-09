@@ -1,0 +1,141 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+
+<!DOCTYPE html>
+<!-- saved from url=(0015)http://to3d.ir/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>NAB</title>
+        
+        <meta name="enamad" content="973390880">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="{% static 'NAB_files/main.css' %}">
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="http://to3d.ir/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="http://to3d.ir/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://to3d.ir/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://to3d.ir/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://to3d.ir/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://to3d.ir/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="http://to3d.ir/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://to3d.ir/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="http://to3d.ir/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="http://to3d.ir/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="http://to3d.ir/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="http://to3d.ir/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="http://to3d.ir/ico/favicon-16x16.png">
+        <link rel="manifest" href="http://to3d.ir/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+    <body class="landing" data-gr-c-s-loaded="true">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt reveal">
+    <h1><a href="http://to3d.ir/Home">Nab</a></h1>
+    <nav id="nav">
+    <ul>
+        <li style="white-space: nowrap;"><a href="http://to3d.ir/">Home</a></li>
+    </ul>
+</nav></header>
+
+            <!-- Banner -->
+            <section id="banner">
+    <img src="{% static 'NAB_files/main-logo.png' %}" alt="SRC" height="251" width="150">
+    <h1></h1>
+    <p>Visualize it, Explore it!</p>
+</section>
+
+
+            <!-- Main -->
+            
+<section id="main" class="container">
+
+    <section class="box special">
+        <header class="major">
+            <h2>NAB
+                <br>
+                Negar Afarin Barajin</h2>
+            <p>Negar Afarin Barajin (in short NAB) is a startup team aimed to bring cutting-edge technologies to day-to-day human lives. We are working on 3D image reconstruction engine, and we are making it publicly available so anyone can use this service with an affordable price. This service allows everyone to make a 3D model out of 2D images. This could be applied from tiny objects to the big buildings and even 3D map of cities!</p>
+        </header>
+        <span class="image featured"><img src="{% static 'NAB_files/pic01.jpg' %}" alt=""></span>
+    </section>
+
+    <section class="box special features">
+        <div class="features-row">
+            <section>
+                <img src="{% static 'test/w1.jpg' %}" alt="Avatar" class="image" width="300" height="auto">
+                <a href="{% url 'test' %}" class="button">Go to test</a>
+            </section>
+            <section>
+                <img src="{% static 'test/w1.jpg' %}" alt="Avatar" class="image" width="300" height="auto">
+                <a href="{% url 'test2' %}" class="button">Go to test2</a>
+            </section>
+        </div>
+        <div class="features-row">
+            <section>
+                <img src="{% static 'test/w1.jpg' %}" alt="Avatar" class="image" width="300" height="auto">
+                <a href="{% url 'test3' %}" class="button">Go to test3</a>
+            </section>
+            <section>
+                <img src="{% static 'test/w1.jpg' %}" alt="Avatar" class="image" width="300" height="auto">
+                <a href="{% url 'test4' %}" class="button">Go to test4</a>
+            </section>
+        </div>
+    </section>
+</section>
+
+            <!-- CTA -->
+            
+            <!-- Footer -->
+            <footer id="footer">
+    <ul class="icons">
+        <li>
+            <a href="http://qiau.ac.ir/" target="_blank">
+                <img src="{% static 'NAB_files/qiau.png' %}" alt="qiau" height="100" width="100">
+            </a>
+        </li>
+
+        <li>
+            <a href="http://to3d.ir/">
+                <img src="{% static 'NAB_files/nab.png' %}" alt="nab" height="100" width="100">
+            </a>
+        </li>
+
+        <li>
+            <a href="http://daneshbonyan.isti.ir/" target="_blank">
+                <img src="{% static 'NAB_files/fanavari.png' %}" alt="fanavari" height="100" width="100">
+            </a>
+        </li>
+    </ul>
+    <ul class="copyright">
+        <li>© NAB. All rights reserved.</li>
+    </ul>
+</footer>         
+
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="{% static 'NAB_files/jquery.min.js.download' %}"></script>
+        <script src="{% static 'NAB_files/jquery.dropotron.min.js.download' %}"></script>
+        <script src="{% static 'NAB_files/jquery.scrollgress.min.js.download' %}"></script>
+        <script src="{% static 'NAB_files/skel.min.js.download' %}"></script>
+        <script src="{% static 'NAB_files/util.js.download' %}"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="{% static 'NAB_files/main.js.download' %}"></script>
+
+    
+<ul class="dropotron level-0" style="user-select: none; display: none; position: absolute; z-index: 1000;">
+                <li style="white-space: nowrap;"><a href="http://to3d.ir/About" style="display: block;">About us</a></li>
+                <li style="white-space: nowrap;"><a href="http://to3d.ir/Policy" style="display: block;">Policy</a></li>
+                <li style="white-space: nowrap;"><a href="http://to3d.ir/Terms" style="display: block;">Terms</a></li>
+                <li style="white-space: nowrap;"><a href="http://to3d.ir/How" style="display: block;">How to use</a></li>
+                <li style="white-space: nowrap;"><a href="http://to3d.ir/Contact" style="display: block;">Contact</a></li>
+            </ul><div id="navButton"><a href="http://to3d.ir/#navPanel" class="toggle"></a></div><div id="navPanel"><nav><a class="link depth-0" href="http://to3d.ir/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Home</a><a class="link depth-0" href="http://to3d.ir/auth/login" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Login</a><a class="link depth-0" href="http://to3d.ir/#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>About</a><a class="link depth-1" href="http://to3d.ir/About" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>About us</a><a class="link depth-1" href="http://to3d.ir/Policy" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Policy</a><a class="link depth-1" href="http://to3d.ir/Terms" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Terms</a><a class="link depth-1" href="http://to3d.ir/How" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>How to use</a><a class="link depth-1" href="http://to3d.ir/Contact" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Contact</a></nav></div></body></html>
