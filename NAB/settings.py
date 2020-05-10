@@ -25,7 +25,7 @@ SECRET_KEY = 'oe#ncr8d@gc+**w$1e8v6e%2z8hyz&3zy-qv8_^41#&bhm#f*5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.to3d.ir', 'to3d.ir', '127.0.0.1', '194.5.205.122']
 
 
 # Application definition
