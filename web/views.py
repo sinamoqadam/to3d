@@ -9,25 +9,55 @@ def home_view(request):
     return HttpResponse(template.render(context, request))
 
 
-def test(request):
+def to3v(request):
     template = loader.get_template('web/test.html')
     context = {}
     return HttpResponse(template.render(context, request))
 
 
-def test2(request):
+def entrance_of_alighapou(request):
     template = loader.get_template('web/test.html')
     context = {}
     return HttpResponse(template.render(context, request))
 
 
-def test3(request):
+def interior_of_alighapou(request):
     template = loader.get_template('web/test.html')
     context = {}
     return HttpResponse(template.render(context, request))
 
 
-def test4(request):
+def interior_of_kashan_fin_garden(request):
+    template = loader.get_template('web/test.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def fasham(request):
+    template = loader.get_template('web/test.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def alighau(request):
+    template = loader.get_template('web/test.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def kashan(request):
+    template = loader.get_template('web/test.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def lavasan(request):
+    template = loader.get_template('web/test.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def naghshe_jahan(request):
     template = loader.get_template('web/test.html')
     context = {}
     return HttpResponse(template.render(context, request))
